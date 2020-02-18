@@ -1,0 +1,105 @@
+* {
+    font-family: "Courier", "Courier New", "Lucida Sans Typewriter", "monospace";
+    font-weight: bold;
+    user-select: none;
+    -webkit-user-select:none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -khtml--tap-highlight-color:rgba(0,0,0,0);
+    -moz-tap-highlight-color:rgba(0,0,0,0);
+    -o-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-text-size-adjust:none;
+    -khtml--text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -o-text-size-adjust:none;
+    -webkit-touch-callout:none;
+    -khtml--touch-callout:none;
+    -moz-touch-callout:none;
+    -o-touch-callout:none;
+}
+
+header {
+    background-color: #810f7c;
+    color: #e0ecf4;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+main {
+    background-color: #edf8fb;
+    height: calc(100vh - 3rem);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position:  relative;
+}
+
+footer {
+    background-color: #810f7c;
+    color: #e0ecf4;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+#breakout {
+    align-self: center;
+}
+
+#menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    flex-flow:  column;
+    align-items:  center;
+    background: #e0ecf466;
+}
+
+button {
+    margin: 10vh 0 0 0;
+    width: 40vh;
+    height: 10%;
+    background-color: #810f7c;
+    color:#e0ecf4;
+    border-color: #8c96c6;
+    font-size: 3vh;
+    font-family: Courier;
+}
+
+button:hover, button:focus, button:active {
+    color: #edf8fb;
+    background-color: #8856a7;
+}
+
+.title {
+    font-size: 15vh;
+    margin: 10vh 0 0 0;
+}
+
+.subtitle {
+    font-size: 5vh;
+    margin: 6vh 0;
+}
+
+.text {
+    margin: 0;
+    line-height: 3vh;
+    font-size: 3vh;
+    background: #ffffffab;
+    border-radius: 1vh;
+    padding: 0 1vh;
+}
+
+input {
+    margin-top: 7vh;
+    font-size: 15vh;
+    text-align: center;
+    font-family: "Courier", "Courier New", "Lucida Sans Typewriter", "monospace";
+    background: #ffffffab;
+    border: none;
+    padding: 0 2vh 0 2vh;
+}
